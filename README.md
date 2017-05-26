@@ -37,7 +37,7 @@ VI. Example:
 
 perl eAromatic-1.0.pl 
 
-2. Run eAromatic with distance-based contacts at a default 4.5 A threashold:
+2. Run eAromatic with distance-based contacts at a default threashold of 4.5 A:
 
 perl eAromatic-1.0.pl -p 3lc6A.pdb -l 3lc6A00.mol
 
@@ -57,8 +57,7 @@ AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
 
 * 2nd column is the residue name
 * 3rd column is the residue index
-* 4th column is the index of ligand aromatic ring (these indices start 
-from 0)
+* 4th column is the index of ligand aromatic ring (these indices start from 0)
 * 5th column is the distance (as defined above)
 * 6th column is the angle (as defined above)
 * 7th column is the number of atoms in ligand ring
