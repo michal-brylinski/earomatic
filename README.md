@@ -59,14 +59,10 @@ AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
 * 3rd column is the residue index
 * 4th column is the index of ligand aromatic ring (these indices start 
 from 0)
-
-5th column is the distance (as defined above)
-
-6th column is the angle (as defined above)
-
-7th column is the number of atoms in ligand ring
-
-8th column is the list of atom indices for that ligand ring
+* 5th column is the distance (as defined above)
+* 6th column is the angle (as defined above)
+* 7th column is the number of atoms in ligand ring
+* 8th column is the list of atom indices for that ligand ring
 
 For tryptophan residues, TR5 and TR6 denote 5- and 6-member rings, respectively.
 
