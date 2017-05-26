@@ -61,8 +61,9 @@ perl eAromatic-1.0.pl -p 3lc6A.pdb -l 3lc6A00.mol -c 3lc6A00.lpc
 
 5. Output should look like this:
 
- AROMATIC TYR  467  1  4.0371    6.32  6 25:23:15:13:16:24
- AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
+AROMATIC TYR  467  1  4.0371    6.32  6 25:23:15:13:16:24
+
+AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
 
 a. 2nd column is the residue name
 b. 3rd column is the residue index
