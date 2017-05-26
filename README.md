@@ -8,7 +8,7 @@ distance between the geometric centers of two rings, referred to as
 the distance. The second parameter is an angle between normal vectors 
 of two aromatic rings, referred to as the angle.
 
-Prerequisite Perl modules:
+I. Prerequisite Perl modules:
 
 1. File::Slurp
 2. Chemistry::Mol
@@ -17,29 +17,29 @@ Prerequisite Perl modules:
 5. Math::Vector::Real
 6. Math::Trig
 
-Input files:
+II. Input files:
 
 1. Protein in PDB format (mandatory)
 2. Ligand in MOL format (mandatory)
 3. Output from LPC (optional)
 
-Output:
+III. Output:
 
 A list of interacting pairs of aromatic rings, each annotated with 
 the distance and the angle.
 
-Note on file formats:
+IV. Note on file formats:
 
 We recommend OpenBabel (http://openbabel.org) to convert between 
 different file formats.
 
-Note on contacts:
+V. Note on contacts:
 
 You can define contacts either by providing the output from Ligand 
 Protein Contacts (LPC) (https://www.ncbi.nlm.nih.gov/pubmed/10320401) 
 or with an atomic distance threshold.
 
-Example:
+VI. Example:
 
 1. Run eAromatic without arguments to get the list of available options:
 
@@ -64,14 +64,14 @@ perl eAromatic-1.0.pl -p 3lc6A.pdb -l 3lc6A00.mol -c 3lc6A00.lpc
 AROMATIC TYR  467  1  4.0371    6.32  6 25:23:15:13:16:24
 AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
 
-2nd column is the residue name
-3rd column is the residue index
-4th column is the index of ligand aromatic ring (these indices start 
+a. 2nd column is the residue name
+b. 3rd column is the residue index
+c. 4th column is the index of ligand aromatic ring (these indices start 
 from 0)
-5th column is the distance (as defined above)
-6th column is the angle (as defined above)
-7th column is the number of atoms in ligand ring
-8th column is the list of atom indices for that ligand ring
+d. 5th column is the distance (as defined above)
+e. 6th column is the angle (as defined above)
+f. 7th column is the number of atoms in ligand ring
+g. 8th column is the list of atom indices for that ligand ring
 
 For tryptophan residues, TR5 and TR6 denote 5- and 6-member rings, 
 respectively.
