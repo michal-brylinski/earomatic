@@ -2,11 +2,7 @@
 
 Analysis of aromatic interactions in protein-ligand complexes
 
-eAromatic calculates two geometric parameters for aromatic contacts 
-between ligands and proteins. The first parameter is the Cartesian 
-distance between the geometric centers of two rings, referred to as 
-the distance. The second parameter is an angle between normal vectors 
-of two aromatic rings, referred to as the angle.
+eAromatic calculates two geometric parameters for aromatic contacts between ligands and proteins. The first parameter is the Cartesian distance between the geometric centers of two rings, referred to as the distance. The second parameter is an angle between normal vectors of two aromatic rings, referred to as the angle.
 
 I. Prerequisite Perl modules:
 
@@ -65,14 +61,20 @@ AROMATIC TYR  467  1  4.0371    6.32  6 25:23:15:13:16:24
 
 AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
 
-a. 2nd column is the residue name
-b. 3rd column is the residue index
-c. 4th column is the index of ligand aromatic ring (these indices start 
+2nd column is the residue name
+
+3rd column is the residue index
+
+4th column is the index of ligand aromatic ring (these indices start 
 from 0)
-d. 5th column is the distance (as defined above)
-e. 6th column is the angle (as defined above)
-f. 7th column is the number of atoms in ligand ring
-g. 8th column is the list of atom indices for that ligand ring
+
+5th column is the distance (as defined above)
+
+6th column is the angle (as defined above)
+
+7th column is the number of atoms in ligand ring
+
+8th column is the list of atom indices for that ligand ring
 
 For tryptophan residues, TR5 and TR6 denote 5- and 6-member rings, 
 respectively.
