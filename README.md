@@ -64,6 +64,6 @@ from 0)
 * 7th column is the number of atoms in ligand ring
 * 8th column is the list of atom indices for that ligand ring
 
-For tryptophan residues, TR5 and TR6 denote 5- and 6-member rings, respectively.
+For tryptophan residues, TR5 and TR6 denote 5- and 6-member side chain rings, respectively.
 
 The first detected aromatic contact is between aromatic ring of tyrosine 467 and a 6-member ring in the ligand comprising atoms 13, 15, 16, 23, 24, and 25. The Cartesian distance between ring geometric centers is 4.0371 Angstrom, whereas the angle between normal vectors of these rings is 6.32 deg.
