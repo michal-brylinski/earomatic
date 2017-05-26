@@ -1,0 +1,410 @@
+Contacts of ligand LIG   1  in  PDB entry 0.00
+
+Ligand-Protein Contacts (LPC) are derived
+with the LPC software (Sobolev V., Sorokine A.,
+Prilusky J., Abola E.E., Edelman M., (1999)
+Automated analysis of interatomic contacts in proteins.
+Bioinformatics, 15, 327-332). A short description of
+the analytical approach is given at the end of the
+page.
+
+On this page you will find:
+   1. Solvent accessible surface of the ligand
+      complexed with protein and in uncomplexed form
+   2. Residues in contact with the ligand
+   3. List of putative hydrogen bonds formed by the ligand
+   4. Full list of atomic contacts formed by the ligand
+   5. Values of ligand complementarity (a function of 
+      atomic contact surface area and the chemical
+      properties of contacting atoms)
+   6. Prediction of complementarity changes as a 
+      function of atomic substitution in the ligand
+
+
+1. Solvent accessible surface (A**2) of the ligand
+in complex with protein and in uncomplexed form
+
+  ----------------------------------
+   Atom          Compl      Uncompl
+  ----------------------------------
+   1   N1         0.0         56.0
+   2   O1         0.3         31.7
+   3   O2         0.0         35.0
+   4   O3         6.8         24.1
+   5   O4         0.0         49.2
+   6   O5         0.0         30.8
+   7   O6        11.4         41.2
+   8   O7         0.0         39.0
+   9   C1         0.0         19.1
+  10   O8         0.0          0.3
+  11   O9         0.0         11.1
+  12   O10        0.0         12.5
+  13   C2         1.8         48.7
+  14   C3         0.0         18.6
+  15   N2         0.0         21.6
+  16   N3         0.0         11.1
+  17   N4         0.0         22.4
+  18   C4         0.0          5.8
+  19   C5         0.0          7.6
+  20   C6         0.0         16.4
+  21   C7         0.2         19.1
+  22   N5         0.0          0.6
+  23   C8         0.0         11.0
+  24   C9         0.0          5.8
+  25   C10        0.0          9.0
+  26   P1         0.0          0.0
+  27   P2         0.0          0.0
+
+     TOTAL       20.6        547.7
+  ----------------------------------
+
+
+2. Residues in contact with ligand LIG   1  in PDB entry 0.00
+
+Legend:
+Dist - nearest distance (A) between atoms of the ligand and the residue
+Surf - contact surface area (A**2) between the ligand and the residue
+HB   - hydrophilic-hydrophilic contact (hydrogen bond)
+Arom - aromatic-aromatic contact
+Phob - hydrophobic-hydrophobic contact
+DC   - hydrophobic-hydrophilic contact (destabilizing contact)
++/-  - indicates presence/absence of a specific contacts
+*    - indicates residues contacting ligand by their side chain
+       (including CA atoms)
+
+----------------------------------------------------------
+                                  Specific contacts
+                               ---------------------------
+     Residue      Dist    Surf    HB    Arom    Phob    DC
+----------------------------------------------------------
+    308A  ALA*     4.2     3.9    -      -       +      +
+    309A  PRO*     2.9    27.0    +      -       +      -
+    310A  GLY*     3.8     0.2    -      -       -      -
+    311A  ILE*     2.7    35.6    +      -       -      +
+    312A  ARG*     4.5     0.8    -      -       -      -
+    313A  GLY*     2.9    35.3    -      -       -      -
+    314A  MET*     3.0     4.3    +      -       -      +
+    315A  VAL*     2.8    40.5    +      -       -      +
+    316A  MET*     3.0    33.2    +      -       -      +
+    318A  VAL*     2.6    52.9    -      -       +      +
+    327A  VAL*     3.5    19.5    -      -       +      +
+    329A  LYS*     3.7    30.5    -      -       +      +
+    350A  TYR*     4.1     2.1    +      -       -      -
+    409A  GLU*     1.7    42.8    +      -       -      +
+    410A  ARG      3.4    13.9    +      -       -      -
+    411A  ARG*     5.3     0.7    -      -       +      -
+    412A  MET*     3.3    35.2    +      -       +      +
+    414A  PRO*     3.7    34.7    -      -       +      +
+    454A  LYS*     4.2    14.9    +      -       -      +
+    455A  ASN*     3.2     8.5    +      -       -      -
+    467A  TYR*     3.0    83.3    +      +       -      -
+    468A  ASP*     2.6    66.2    +      -       -      +
+    469A  TYR      5.0     0.2    +      -       -      -
+----------------------------------------------------------
+
+
+3. List of putative hydrogen bonds between  ligand LIG   1 
+   and protein in PDB entry 0.00
+
+Legend:
+N     - ligand atom number in PDB entry
+Dist  - distance (A) between the ligand and protein atoms
+Surf  - contact surface area (A**2) between the ligand and protein atoms
+
+------------------------------------------------------------------------
+    Ligand atom            Protein atom
+-----------------   ----------------------------    Dist     Surf
+  N   Name   Class    Residue       Name   Class
+------------------------------------------------------------------------
+  1   N1     I        GLU  409A     OE2    II        1.7     31.9
+  1   N1     I        ARG  410A     O      II        3.4     13.9
+  2   O1     I        ILE  311A     O      II        2.7     13.3
+  2   O1     I        TYR  467A     OH     I         3.8      2.4
+  2   O1     I        ILE  311A     N      III       4.1      1.9
+  2   O1     I        LYS  454A     O      II        4.2      5.2
+  2   O1     I        ASN  455A     OD1    II        4.7      0.2
+  3   O2     I        PRO  309A     O      II        2.9     18.7
+  3   O2     I        TYR  467A     OH     I         3.4      3.1
+  3   O2     I        ILE  311A     O      II        3.6      4.3
+  3   O2     I        ILE  311A     N      III       3.7      5.4
+  3   O2     I        LYS  454A     O      II        4.6      0.2
+  4   O3     I        MET  314A     N      III       3.9      1.2
+  4   O3     I        ASP  468A     OD2    II        4.4      0.5
+  4   O3     I        ASN  455A     OD1    II        4.5      2.1
+  5   O4     I        VAL  315A     N      III       2.8     30.8
+  5   O4     I        MET  316A     N      III       3.0      8.0
+  5   O4     I        MET  314A     N      III       3.0      0.9
+  6   O5     I        ASP  468A     OD2    II        2.6     29.3
+  6   O5     I        ASN  455A     OD1    II        3.2      6.1
+  7   O6     I        ASP  468A     OD1    II        2.7     23.9
+  7   O6     I        ASP  468A     OD2    II        3.4      1.2
+  7   O6     I        MET  314A     N      III       4.6      1.0
+  8   O7     I        TYR  467A     O      II        3.3     22.2
+  8   O7     I        TYR  350A     OH     I         4.1      2.1
+  8   O7     I        ASP  468A     OD1    II        4.3      0.2
+  8   O7     I        TYR  469A     N      III       5.0      0.2
+ 15   N2     I        MET  412A     N      III       3.3     15.2
+ 16   N3     I        TYR  467A     OH     I         3.8      0.2
+ 16   N3     I        PRO  309A     O      II        4.4      1.6
+ 17   N4     I        GLU  409A     OE2    II        3.2      6.5
+------------------------------------------------------------------------
+
+
+4. Full list of atomic contacts with ligand LIG   1  in PDB entry 0.00
+   Total number of contacts is 123
+
+Legend:
+N     - ligand atom number in PDB entry
+Dist  - distance (A) between the ligand and protein atoms
+Surf  - contact surface area (A**2) between the ligand and protein atoms
+*     - indicates destabilizing contacts
+------------------------------------------------------------------------
+    Ligand atom            Protein atom
+-----------------   ----------------------------    Dist     Surf
+  N   Name   Class    Residue       Name   Class
+------------------------------------------------------------------------
+  1   N1     I       GLU  409A     OE2    II        1.7      31.9  
+  1   N1     I       GLU  409A     CD     VI        2.8       3.6  
+  1   N1     I       ARG  410A     O      II        3.4      13.9  
+  1   N1     I       VAL  327A     CG2    IV        3.5       1.2* 
+  1   N1     I       GLU  409A     CG     IV        3.6       0.4* 
+  1   N1     I       TYR  467A     CD2     V        3.7       7.5  
+  1   N1     I       MET  412A     CG     IV        3.8       3.6* 
+  1   N1     I       MET  412A     SD    VIII       4.2       0.2  
+  2   O1     I       ILE  311A     O      II        2.7      13.3  
+  2   O1     I       ILE  311A     C      VI        3.8       0.5  
+  2   O1     I       TYR  467A     OH     I         3.8       2.4  
+  2   O1     I       ILE  311A     N      III       4.1       1.9  
+  2   O1     I       LYS  454A     O      II        4.2       5.2  
+  2   O1     I       LYS  454A     CG     IV        4.3       8.3* 
+  2   O1     I       ASN  455A     OD1    II        4.7       0.2  
+  2   O1     I       ILE  311A     CG2    IV        5.1       0.3* 
+  3   O2     I       PRO  309A     O      II        2.9      18.7  
+  3   O2     I       TYR  467A     OH     I         3.4       3.1  
+  3   O2     I       ILE  311A     O      II        3.6       4.3  
+  3   O2     I       ILE  311A     N      III       3.7       5.4  
+  3   O2     I       PRO  414A     CG     IV        3.8       4.5* 
+  3   O2     I       GLY  310A     CA     VI        3.8       0.2  
+  3   O2     I       PRO  414A     CB     IV        4.2       0.5* 
+  3   O2     I       LYS  454A     O      II        4.6       0.2  
+  3   O2     I       LYS  454A     CB     IV        5.6       0.2* 
+  4   O3     I       GLY  313A     CA     VI        2.9      16.8  
+  4   O3     I       MET  314A     N      III       3.9       1.2  
+  4   O3     I       ASP  468A     OD2    II        4.4       0.5  
+  4   O3     I       ARG  312A     C      VI        4.5       0.3  
+  4   O3     I       ASN  455A     OD1    II        4.5       2.1  
+  4   O3     I       LYS  454A     CE     VII       6.0       1.0  
+  4   O3     I       ILE  311A     CG2    IV        6.1       0.2* 
+  5   O4     I       VAL  315A     N      III       2.8      30.8  
+  5   O4     I       GLY  313A     CA     VI        3.0       9.5  
+  5   O4     I       MET  316A     N      III       3.0       8.0  
+  5   O4     I       MET  314A     N      III       3.0       0.9  
+  5   O4     I       VAL  315A     CA     VII       3.6       0.5  
+  5   O4     I       VAL  315A     CG2    IV        3.8       1.2* 
+  6   O5     I       ASP  468A     OD2    II        2.6      29.3  
+  6   O5     I       ASP  468A     CG     VI        2.7       5.0  
+  6   O5     I       ASN  455A     OD1    II        3.2       6.1  
+  6   O5     I       ASP  468A     CB     IV        3.5       1.0* 
+  6   O5     I       ASP  468A     CA     VII       3.8       0.2  
+  6   O5     I       ASN  455A     CG     VI        3.9       0.2  
+  6   O5     I       TYR  467A     CE1     V        4.0       1.9  
+  7   O6     I       ASP  468A     OD1    II        2.7      23.9  
+  7   O6     I       ASP  468A     CG     VI        3.4       1.6  
+  7   O6     I       ASP  468A     OD2    II        3.4       1.2  
+  7   O6     I       VAL  315A     CG2    IV        4.5       8.0* 
+  7   O6     I       MET  314A     N      III       4.6       1.0  
+  7   O6     I       MET  316A     CG     IV        5.0       0.5* 
+  7   O6     I       MET  314A     CB     IV        5.4       1.2* 
+  8   O7     I       TYR  467A     O      II        3.3      22.2  
+  8   O7     I       LYS  329A     CE     VII       3.7      15.8  
+  8   O7     I       TYR  467A     CD1     V        3.7       4.0  
+  8   O7     I       ASP  468A     CA     VII       3.9       2.8  
+  8   O7     I       TYR  467A     CE1     V        3.9       0.2  
+  8   O7     I       TYR  350A     OH     I         4.1       2.1  
+  8   O7     I       MET  316A     CG     IV        4.3       2.3* 
+  8   O7     I       ASP  468A     OD1    II        4.3       0.2  
+  8   O7     I       TYR  469A     N      III       5.0       0.2  
+  9   C1    VIII     GLY  313A     CA     VI        4.3       5.4  
+  9   C1    VIII     GLY  313A     N      III       4.3       0.4  
+  9   C1    VIII     VAL  318A     CG1    IV        4.4       3.8  
+  9   C1    VIII     MET  316A     CB     IV        4.5       9.2  
+  9   C1    VIII     VAL  318A     CB     IV        4.6       0.2  
+  9   C1    VIII     MET  316A     O      II        4.7       1.3* 
+ 10   O8     II      TYR  467A     CE1     V        3.8       0.3  
+ 11   O9     II      VAL  318A     CG1    IV        2.6      13.2* 
+ 12   O10    II      MET  316A     CG     IV        3.4      12.0* 
+ 12   O10    II      ASP  468A     OD1    II        4.0       0.5* 
+ 13   C2      V      PRO  414A     CG     IV        3.8      16.6  
+ 13   C2      V      PRO  414A     CD     IV        3.8       6.7  
+ 13   C2      V      MET  412A     N      III       3.9       8.1  
+ 13   C2      V      TYR  467A     CE2     V        3.9       5.2  
+ 13   C2      V      MET  412A     O      II        4.0       1.8  
+ 13   C2      V      MET  412A     C      VI        4.1       1.1  
+ 13   C2      V      MET  412A     CB     IV        4.2       0.4  
+ 13   C2      V      VAL  327A     CG1    IV        4.7       4.9  
+ 13   C2      V      ARG  411A     CG     IV        5.3       0.7  
+ 13   C2      V      ALA  308A     CB     IV        5.6       0.2  
+ 13   C2      V      PRO  309A     CD     IV        6.3       1.1  
+ 14   C3      V      VAL  318A     CG2    IV        3.4      13.0  
+ 14   C3      V      VAL  318A     CB     IV        3.8       0.4  
+ 14   C3      V      TYR  467A     CE1     V        4.0       2.5  
+ 14   C3      V      LYS  329A     CG     IV        4.3       4.3  
+ 15   N2     I       MET  412A     N      III       3.3      15.2  
+ 15   N2     I       MET  412A     CB     IV        3.5       4.8* 
+ 15   N2     I       TYR  467A     CE2     V        3.7       1.0  
+ 15   N2     I       VAL  327A     CG2    IV        4.4       0.6* 
+ 16   N3     I       PRO  414A     CG     IV        3.7       6.3* 
+ 16   N3     I       TYR  467A     OH     I         3.8       0.2  
+ 16   N3     I       PRO  309A     O      II        4.4       1.6  
+ 16   N3     I       VAL  327A     CG1    IV        4.6       1.2* 
+ 16   N3     I       ALA  308A     CB     IV        4.8       2.6* 
+ 16   N3     I       PRO  309A     N      VI        5.7       0.4  
+ 17   N4     I       GLU  409A     OE2    II        3.2       6.5  
+ 17   N4     I       TYR  467A     CD1     V        3.9       5.9  
+ 17   N4     I       LYS  329A     CE     VII       3.9       8.3  
+ 17   N4     I       LYS  329A     CD     IV        4.0       2.2* 
+ 17   N4     I       GLU  409A     CD     VI        4.1       0.4  
+ 17   N4     I       VAL  318A     CG2    IV        4.1       1.2* 
+ 17   N4     I       VAL  327A     CG2    IV        4.4       0.6* 
+ 18   C4      V      TYR  467A     OH     I         3.5       6.3  
+ 18   C4      V      TYR  467A     CE1     V        3.8       1.3  
+ 19   C5      V      TYR  467A     OH     I         3.0       8.3  
+ 20   C6      V      ILE  311A     O      II        3.5       9.6  
+ 20   C6      V      VAL  318A     CG1    IV        3.8       4.0  
+ 20   C6      V      GLY  313A     N      III       4.3       3.1  
+ 20   C6      V      ARG  312A     CA     VII       5.1       0.4  
+ 21   C7      V      VAL  318A     CG1    IV        3.3      12.3  
+ 21   C7      V      VAL  318A     CG2    IV        3.8       0.2  
+ 21   C7      V      PRO  309A     O      II        4.0       5.2  
+ 21   C7      V      ALA  308A     CB     IV        4.2       1.1  
+ 22   N5     I       VAL  318A     CG2    IV        3.5       0.6* 
+ 23   C8      V      TYR  467A     CD2     V        3.6       5.4  
+ 23   C8      V      VAL  327A     CG2    IV        3.8       5.6  
+ 24   C9      V      TYR  467A     CZ      V        3.7       1.1  
+ 24   C9      V      VAL  318A     CG2    IV        4.2       3.8  
+ 24   C9      V      VAL  327A     CG1    IV        4.4       0.9  
+ 25   C10     V      TYR  467A     CE2     V        3.8       4.5  
+ 25   C10     V      VAL  327A     CG2    IV        4.1       4.3  
+ 25   C10     V      VAL  327A     CG1    IV        4.2       0.2  
+------------------------------------------------------------------------
+
+
+5. Complementarity values for the ligand LIG   1 
+   in PDB entry 0.00
+---------------------------------------------
+Theoretical maximum (A**2)                 547
+Actual value (A**2)                        425
+Normalised complementarity                0.78
+---------------------------------------------
+
+
+6. Normalised complementarity as a function of atomic 
+   substitution for ligand LIG   1  in PDB entry 0.00
+-----------------------------------------------------------------------
+Ligand atom                              Atom class
+-----------      ------------------------------------------------------
+Type  Class       I      II    III     IV     V      VI    VII    VIII
+-----------------------------------------------------------------------
+ N1     I        0.78   0.61   0.78   0.63   0.80   0.80   0.80   0.63
+ O1     I        0.78   0.71   0.77   0.72   0.81   0.81   0.80   0.74
+ O2     I        0.78   0.69   0.76   0.68   0.80   0.80   0.78   0.71
+ O3     I        0.78   0.77   0.77   0.76   0.78   0.78   0.77   0.77
+ O4     I        0.78   0.78   0.63   0.64   0.78   0.78   0.63   0.78
+ O5     I        0.78   0.65   0.78   0.65   0.78   0.78   0.78   0.65
+ O6     I        0.78   0.68   0.77   0.72   0.81   0.81   0.81   0.72
+ O7     I        0.78   0.70   0.71   0.70   0.78   0.78   0.72   0.70
+ C1    VIII      0.73   0.73   0.73   0.78   0.78   0.78   0.78   0.78
+ O8     II       0.78   0.78   0.78   0.78   0.78   0.78   0.78   0.78
+ O9     II       0.78   0.78   0.78   0.82   0.82   0.82   0.82   0.82
+ O10    II       0.78   0.78   0.78   0.82   0.82   0.82   0.82   0.82
+ C2      V       0.66   0.66   0.63   0.74   0.78   0.78   0.75   0.77
+ C3      V       0.71   0.71   0.71   0.78   0.78   0.78   0.78   0.78
+ N2     I        0.78   0.78   0.72   0.74   0.80   0.80   0.74   0.80
+ N3     I        0.78   0.77   0.78   0.81   0.81   0.81   0.81   0.81
+ N4     I        0.78   0.75   0.75   0.77   0.79   0.79   0.76   0.77
+ C4      V       0.78   0.78   0.78   0.75   0.78   0.78   0.78   0.78
+ C5      V       0.78   0.78   0.78   0.75   0.78   0.78   0.78   0.78
+ C6      V       0.76   0.73   0.75   0.73   0.78   0.78   0.76   0.74
+ C7      V       0.73   0.71   0.73   0.76   0.78   0.78   0.78   0.76
+ N5     I        0.78   0.78   0.78   0.78   0.78   0.78   0.78   0.78
+ C8      V       0.76   0.76   0.76   0.78   0.78   0.78   0.78   0.78
+ C9      V       0.76   0.76   0.76   0.78   0.78   0.78   0.78   0.78
+ C10     V       0.76   0.76   0.76   0.78   0.78   0.78   0.78   0.78
+-----------------------------------------------------------------------
+
+
+A short description of the analytical approach.
+The analysis of ligand-protein contacts used in this page
+ is based upon the surface complementarity approach 
+developed in: Sobolev V., Wade R.C., Vriend G. and Edelman M.
+PROTEINS (1996) 25, 120-129. The complementarity function
+therein is defined as:
+CF = Sl - Si -E 
+Where, Sl is the sum of all surface areas of legitimate
+atomic contacts between ligand and receptor, Si is the
+sum of all surface areas of illegitimate atomic 
+contacts, and E is a repulsion term.
+eight atom classes have been introduced:
+
+
+   I  Hydrophilic      - N and O that can donate and accept hydrogen bonds
+                         (e.g., oxygen of hydroxyl group of Ser. or Thr)
+  II  Acceptor         - N or O that can only accept a hydrogen bond
+ III  Donor            - N that can only donate a hydrogen bond
+  IV  Hydrophobic      - Cl, Br, I and all C atoms that are not in
+                         aromatic rings and do not have a covalent bond to
+                         a N or O atom
+   V  Aromatic         - C in aromatic rings irrespective of any other 
+                         bonds formed by the atom
+  VI  Neutral          - C atoms that have a covalent bond to at least one
+                         atom of class I or two or more atoms from class II
+                         or III; atoms; S, F, P, and metal atoms in all cases
+ VII  Neutral-donor    - C atoms that have a covalent bond with only one
+                         atom of class III
+VIII  Neutral-acceptor - C atoms that have a covalent bond with only 
+                         one atom of class II
+
+For each pair of contacts the state of legitimacy 
+is shown below.
+Legend: +, legitimate; -, illegitimate
+------------------------------------------------------------
+  Atomic class           I  II  III   IV   V   VI  VII  VIII
+------------------------------------------------------------
+   I  (Hydrophilic)      +   +    +    -   +   +    +    +
+  II  (Acceptor)         +   -    +    -   +   +    +    -
+ III  (Donor)            +   +    -    -   +   +    -    +
+  IV  (Hydrophobic)      -   -    -    +   +   +    +    +
+   V  (Aromatic)         +   +    +    +   +   +    +    +
+  VI  (Neutral)          +   +    +    +   +   +    +    +
+ VII  (Neutral-donor)    +   +    -    +   +   +    -    +
+VIII  (Neutral-acceptor) +   -    +    +   +   +    +    -
+------------------------------------------------------------
+WARNING
+Atom classes for ligands are automatically 
+assigned based on the atomic coordinates. However, in 
+three cases the automatic assignment is 
+currently ambiguous (due to low resolution). In these 
+three cases, the user is advised to manually analyze 
+the full list of contacts (Table IV).
+1. Carbon atoms belonging to a 4-, 5- or 6-member ring are 
+   considered "aromatic" (Class V) if the ring is approximately
+   planar, and "hydrophobic" (Class IV) or "neutral" (Classes
+   VI, VII, VIII) if the ring is non-planar.
+2. The oxygen atom of a carbonyl or hydroxy group is considered
+   "hydroxy" (Class I) if the CO bond is longer than 1.29 A;, and
+   "carbonyl" (Class II) if shorter.
+3. All nitrogen atoms are considered "hydrophilic" (Class I).
+IN YOUR STRUCTURE, the following atoms 
+fall in these ambiguous cases:
+Ligand LIG    1
+1. Carbon (in rings)
+                    20 C6    18 C4    19 C5    21 C7    13 C2    23 C8 
+                    25 C10   24 C9    14 C3    25 C10   24 C9 
+2. Oxygen ("hydroxy" or "carbonyl")
+                     2 O1     3 O2 
+3. Nitrogen ("hydrophilic")
+                     1 N1    15 N2    16 N3    17 N4    22 N5 
+
+Please E-mail any questions and/or suggestions
+concerning this page to
+Vladimir.Sobolev@weizmann.ac.il
