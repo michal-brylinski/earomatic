@@ -21,19 +21,15 @@ II. Input files:
 
 III. Output:
 
-A list of interacting pairs of aromatic rings, each annotated with 
-the distance and the angle.
+A list of interacting pairs of aromatic rings, each annotated with the distance and the angle.
 
 IV. Note on file formats:
 
-We recommend OpenBabel (http://openbabel.org) to convert between 
-different file formats.
+We recommend OpenBabel (http://openbabel.org) to convert between different file formats.
 
 V. Note on contacts:
 
-You can define contacts either by providing the output from Ligand 
-Protein Contacts (LPC) (https://www.ncbi.nlm.nih.gov/pubmed/10320401) 
-or with an atomic distance threshold.
+You can define contacts either by providing the output from Ligand Protein Contacts (LPC) (https://www.ncbi.nlm.nih.gov/pubmed/10320401) or with an atomic distance threshold.
 
 VI. Example:
 
@@ -41,13 +37,11 @@ VI. Example:
 
 perl eAromatic-1.0.pl 
 
-2. Run eAromatic with distance-based contacts at a default 4.5 A 
-threashold:
+2. Run eAromatic with distance-based contacts at a default 4.5 A threashold:
 
 perl eAromatic-1.0.pl -p 3lc6A.pdb -l 3lc6A00.mol
 
-3. Run eAromatic with distance-based contacts at a different 
-threshold, e.g. 8.0 A:
+3. Run eAromatic with distance-based contacts at a different threshold, e.g. 8.0 A:
 
 perl eAromatic-1.0.pl -p 3lc6A.pdb -l 3lc6A00.mol -t 8.0
 
@@ -61,11 +55,9 @@ AROMATIC TYR  467  1  4.0371    6.32  6 25:23:15:13:16:24
 
 AROMATIC TYR  467  0  3.9689    7.38  5 25:17:14:22:24
 
-2nd column is the residue name
-
-3rd column is the residue index
-
-4th column is the index of ligand aromatic ring (these indices start 
+* 2nd column is the residue name
+* 3rd column is the residue index
+* 4th column is the index of ligand aromatic ring (these indices start 
 from 0)
 
 5th column is the distance (as defined above)
@@ -76,11 +68,6 @@ from 0)
 
 8th column is the list of atom indices for that ligand ring
 
-For tryptophan residues, TR5 and TR6 denote 5- and 6-member rings, 
-respectively.
+For tryptophan residues, TR5 and TR6 denote 5- and 6-member rings, respectively.
 
-The first detected aromatic contact is between aromatic ring of 
-tyrosine 467 and a 6-member ring in the ligand comprising atoms 13, 
-15, 16, 23, 24, and 25. The Cartesian distance between ring geometric 
-centers is 4.0371 Angstrom, whereas the angle between normal vectors 
-of these rings is 6.32 deg.
+The first detected aromatic contact is between aromatic ring of tyrosine 467 and a 6-member ring in the ligand comprising atoms 13, 15, 16, 23, 24, and 25. The Cartesian distance between ring geometric centers is 4.0371 Angstrom, whereas the angle between normal vectors of these rings is 6.32 deg.
